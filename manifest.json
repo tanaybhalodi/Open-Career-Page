@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Career Page Finder",
     "description": "This extension allows you to easily find the sneaky careers url on any website",
-    "version": "1.0",
+    "version": "1.1.0",
     "browser_action": {
         "default_icon": "icons/icon-19.png",
         "default_popup": "popup.html"
