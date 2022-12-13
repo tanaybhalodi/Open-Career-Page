@@ -28,6 +28,22 @@ a {
     background: #FD5959;
     display: inline-block;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 50px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #0ABFBC 0%, #FC354C  51%, #0ABFBC  100%);
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 250% auto;
+    color: white;            
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 100px;
+    display: block;
+}
+
+a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
     text-decoration: none;
 }
